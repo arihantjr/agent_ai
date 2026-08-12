@@ -1,7 +1,7 @@
 import os, re, urllib.parse, urllib.request
 from flask import Flask, abort, jsonify, render_template, request
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 def get_vid(q):
     try:
