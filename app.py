@@ -95,5 +95,5 @@ def ai_agent_router():
         "url": target
     })
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
